@@ -16,3 +16,4 @@ This project consisted on creating a dashboard that displayed information about 
 ## Results
 The final result was an interactive [dashboard](https://bolwerk-b.github.io/Belly-Button-Biodiversity/) presented in a convinient way to end users through Github Pages. 
 
+![dashboard](dashboard.png)
