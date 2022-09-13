@@ -66,11 +66,10 @@ function buildCharts(sample) {
     var result = resultsArray[0];
 
     // 6. Create variables that hold the otu_ids, otu_labels, and sample_values.
-    var otuIDs = result.otu_ids;
-
-    var otuLabs = result.otu_labels;
-
-    var sampleVals = result.sample_values;
+    var otu_ids = result.otu_ids;
+    var otu_labels = result.otu_labels;
+    var sample_values = result.sample_values;
+    var frequency = parseFloat(metadata.wfreq);
 
     //create a variable that fileters the metadata array
     var metadata = data.metadata;
